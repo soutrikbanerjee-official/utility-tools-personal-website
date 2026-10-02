@@ -1,0 +1,203 @@
+* {
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Design for other Pages */
+
+.headercurve {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7.5rem;
+    background: radial-gradient(circle at 50% 50%, #aaebee 0%, #6da2b2 15%, #4c92b0 30%, #236481 45%, #1a517d 60%, #0a2f46 75%, #041f30 100%);
+    overflow: hidden;
+}
+
+/* Button Styles */
+
+/* Style 1 */
+
+.btnstyl1 {
+    display: inline-block;
+    padding: 20px;
+    margin: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    box-shadow: none;
+
+    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease, font-weight 0.3s ease, font-size 0.3s ease;
+}
+
+@media (orientation: portrait), (max-width: 768px) {
+    .btnstyl1 {
+        padding: 10px;
+    }
+}
+
+.btnstyl1:hover {
+    transform: scale(1.2);
+    font-size: scale(1.2);
+    font-weight: bolder;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Style 2 */
+
+.btnstyl2 {
+    display: inline-block;
+    padding: 20px;
+    margin: 25px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: none;
+
+    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease, font-weight 0.3s ease, font-size 0.3s ease;
+}
+
+@media (orientation: portrait), (max-width: 768px) {
+    .btnstyl2 {
+        padding: 10px;
+    }
+}
+
+.btnstyl2:hover {
+    transform: scale(1.2);
+    font-size: scale(1.2);
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.1);
+}
+
+/* Text Elements */
+
+.heading1 {
+    margin: 25px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    background-color: transparent;
+}
+
+.heading2 {
+    margin: 25px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    background-color: transparent;
+}
+
+.para {
+    margin: 25px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: center;
+    background-color: transparent;
+}
+
+/* Semantic Elements */
+
+.section {
+    position: relative;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    background-color: transparent;
+}
+
+@media (orientation: portrait), (max-width: 768px) {
+    .section {
+        padding: 10px;
+    }
+}
+
+.section2 {
+    position: relative;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    background-color: transparent;
+}
+
+@media (orientation: portrait), (max-width: 768px) {
+    .section2 {
+        padding: 10px;
+        flex-direction: column;
+    }
+}
+
+/* Social Media Icons Style */
+
+#socialconn {
+    padding: 25px;
+}
+
+#sociallinks {
+    margin: 25px;
+    padding: 25px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sociallinks a {
+    background-color: transparent;
+}
+
+.socialicons {
+    width: 35px;
+    height: 35px;
+
+    transition: transform 0.3s ease;
+}
+
+.socialicons:hover {
+    transform: scale(1.5);
+}
+
+@media (orientation: portrait), (max-width: 768px) {
+    #socialconn {
+        padding: 10px;
+    }
+    #sociallinks {
+        padding: 10px;
+        width: 75%;
+    }
+    .socialicons {
+        width: 35px;
+        height: 35px;
+    }
+}
